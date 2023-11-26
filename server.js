@@ -33,7 +33,7 @@ app.use('/api/users', usersRoutes);
 
 // endpoint information
 app.get('/', (req, res) => {
-  res.send('VetsPlace API is running');
+  res.send('Welcome to Vetsplace. This is a temporary landing page. Come back for future updates!');
 });
 
 // test server feedback
